@@ -86,7 +86,7 @@
             <input type="submit" value="Log In" /> <br/> <br/>
         </form>
         <div class="options">
-            <a href="#">Forgot Password?</a> | 
+            <a href="ForgotPassword.jsp">Forgot Password?</a> | 
             <a href="Register.jsp">Sign Up</a>
         </div>
     </div>
