@@ -97,14 +97,15 @@
 </head>
 <body>
     <h3>Welcome: ${session_name}</h3>
-    <div class="user-details">
-        <p><strong>User ID:</strong> ${user_id}</p>
-        <p><strong>Name:</strong> ${user_name}</p>
-        <p><strong>Email:</strong> ${user_email}</p>
-        <p><strong>Password:</strong> ${user_password}</p>
-        <p><strong>Phone:</strong> ${user_phone}</p>
-        <p><strong>Address:</strong> ${user_address}</p>
-    </div>
-    <button class="logout-btn" onclick="location.href='Logout'">Logout</button>
+<div class="user-details">
+    <p><strong>User ID:</strong> ${user_id}</p>
+    <p><strong>Name:</strong> ${user_name}</p>
+    <p><strong>Email:</strong> ${user_email}</p>
+    <p><strong>Password:</strong> ${user_password}</p> <!-- Optional: Avoid displaying for security reasons -->
+    <p><strong>Phone:</strong> ${user_phone}</p>
+    <p><strong>Address:</strong> ${user_address}</p>
+</div>
+<button class="logout-btn" onclick="location.href='Logout'">Logout</button>
+
 </body>
 </html>
